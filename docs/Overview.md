@@ -28,8 +28,8 @@ You can calculate the percent difference between a known value A and a calculate
 In this example, A = 2645; B = 2689. so their difference, A - B is 44 and hence the percent difference is:
 ```
          |2645 - 2689|
-% dif = --------- * 100% = 1.664% increase
-            12
+% dif = --------------- * 100% = 1.664% increase
+                 12
 ```
 Less than 5% so the assumption that x was negligibly small is good.
 
