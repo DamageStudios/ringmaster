@@ -36,17 +36,28 @@ In this example, A = 2645; B = 2689. so their difference, A - B is 44 and hence 
 Less than 2% so the assumption that x was negligibly small is good.
 
 ### Test plans quality and scope
-The quality of the test plan --> this can be based off code coverage %, unit tests P/F, integration tests P/F etc.
+The quality of the test plan can be used as a metric in factoring in the viability of a release. 
+
+This score can be calculated on the following events:
+
+* Code Coverage percentages in terms of increase and decrease
+* Number of unit test failures
+* Number of integration test failures
 
 ### Discussion around the changes
-How much discussion there was around the PR. The amount of back-and-forth that occurred in the code review. The more back-and-forth, the more rejections, the more requests for change—the more risk.
+How much discussion there was around the Release.  The more back-and-forth, the more rejections, the more requests for change—the greater the risk.
+
+This score can be calculated on the following events:
+
+* CommitCommentEvent (GitHub) 
+* IssueCommentEvent (GitHub) 
 
 ### Developer Reputation System
 The Developer Reputation System ranks the Quality of a Developers Code so that Developers with a history of pushing garbage through get more scrutiny at release time. 
 
 Developers are rated on a starring system on a scale of 1-5 with 5 being the highest rating one can achieve. All Developers start from a baseline of 3 stars.
 
-The score can be calculated based on the following GitHub activity stream events (This is just a sample):
+This score can be calculated based on the following GitHub activity stream events (This is just a sample):
 
 * CommitCommentEvent 
 * IssueCommentEvent 
