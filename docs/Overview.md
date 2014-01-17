@@ -25,10 +25,10 @@ You can calculate the percent difference between a known value A and a calculate
 % dif = --------- * 100%
             A
 ```
-In this example, A = 12; B = 12-2*.001148. so their difference, A - B, is simply 2*.001148 and hence percent difference is:
+In this example, A = 2645; B = 2689. so their difference, A - B is 44 and hence the percent difference is:
 ```
-         |2*.001148|
-% dif = --------- * 100% = 0.019%
+         |2645 - 2689|
+% dif = --------- * 100% = 1.664% increase
             12
 ```
 Less than 5% so the assumption that x was negligibly small is good.
