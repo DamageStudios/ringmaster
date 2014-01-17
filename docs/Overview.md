@@ -19,6 +19,10 @@ Ringmaster shall determine how risky the changes are at a meta-level based initi
 ### Size of diff
 How big the diff is. The size of the diff. Bigger = more risky.
 
+        	  |A - B|
+% dif = --------- * 100%
+                 A
+
 ### Test plans quality and scope
 The quality of the test plan --> this can be based off code coverage %, unit tests P/F, integration tests P/F etc.
 
