@@ -9,15 +9,17 @@ Ringmaster is a tool for Release Management Risk Mitigation. It allows release e
 A deterministic system is a conceptual model of the philosophical doctrine of determinism applied to a system for understanding everything that has and will occur in the system, based on the physical outcomes of causality. In a deterministic system, every action, or cause, produces a reaction, or effect, and every reaction, in turn, becomes the cause of subsequent reactions. The totality of these cascading events can theoretically show exactly how the system will exist at any moment in time.
 
 ## How it works
-Ringmaster shall determine how risky the changes are at a meta-level based initially on 4 factors and assign a score to each release:
+Ringmaster shall determine how risky the changes are at a meta-level based initially on 4 metrics and assign a score to each release:
 
 * Size of diff
 * Test plans quality and scope
 * Discussion around the changes
 * Developer Reputation System
 
+Each of the above 4 metrics should be used assign a overall score to the release with no single metric accounting for more than 35% of the overall score.
+
 ### Size of diff
-How big the diff is. The size of the diff. Bigger = more risky.
+How big the diff is. The larger the diff is in terms of the number of changed files and the number of additions/deletions the riskier the release should be scored. 
 
 You can calculate the percent difference between a known value A and a calculated value B  using this formula:
 ```
