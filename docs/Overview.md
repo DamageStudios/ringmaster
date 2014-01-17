@@ -31,7 +31,7 @@ In this example, A = 2645; B = 2689. so their difference, A - B is 44 and hence 
 % dif = --------------- * 100% = 1.664% increase
                  12
 ```
-Less than 5% so the assumption that x was negligibly small is good.
+Less than 2% so the assumption that x was negligibly small is good.
 
 ### Test plans quality and scope
 The quality of the test plan --> this can be based off code coverage %, unit tests P/F, integration tests P/F etc.
