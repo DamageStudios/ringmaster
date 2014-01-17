@@ -42,9 +42,11 @@ The quality of the test plan --> this can be based off code coverage %, unit tes
 How much discussion there was around the PR. The amount of back-and-forth that occurred in the code review. The more back-and-forth, the more rejections, the more requests for change—the more risk.
 
 ### Developer Reputation System
-Reputation System/Developer Karma --> ranking the Quality of a Developers Code --> Developers with a history of pushing garbage through get more scrutiny.
+The Developer Reputation System ranks the Quality of a Developers Code so that Developers with a history of pushing garbage through get more scrutiny at release time. 
 
-The score can be calculated based on the following GitHub activity stream events. (This is just a sample)
+Developers are rated on a starring system on a scale of 1-5 with 5 being the highest rating one can achieve. All Developers start from a baseline of 3 stars.
+
+The score can be calculated based on the following GitHub activity stream events (This is just a sample):
 
 * CommitCommentEvent 
 * IssueCommentEvent 
@@ -52,6 +54,12 @@ The score can be calculated based on the following GitHub activity stream events
 * PullRequestEvent 
 * PushEvent 
 * CreateEvent 
+
+Other events that can be calculated are:
+* Number of good builds developer is responsible for
+* Number of bad builds developer is responsible for
+* Number of good past releases the developer is responsible for
+* Number of past bad releases the developer is responsible for
 
 
 
