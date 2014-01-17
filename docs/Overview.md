@@ -19,9 +19,19 @@ Ringmaster shall determine how risky the changes are at a meta-level based initi
 ### Size of diff
 How big the diff is. The size of the diff. Bigger = more risky.
 
-        	  |A - B|
+You can calculate the percent difference between a known value A and a calculated value B  using this formula:
+```
+         |A - B|
 % dif = --------- * 100%
-                 A
+            A
+```
+In this example, A = 12; B = 12-2*.001148. so their difference, A - B, is simply 2*.001148 and hence percent difference is:
+```
+         |2*.001148|
+% dif = --------- * 100% = 0.019%
+            12
+```
+Less than 5% so the assumption that x was negligibly small is good.
 
 ### Test plans quality and scope
 The quality of the test plan --> this can be based off code coverage %, unit tests P/F, integration tests P/F etc.
