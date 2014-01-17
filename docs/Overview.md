@@ -16,7 +16,7 @@ Ringmaster shall determine how risky the changes are at a meta-level based initi
 * Discussion around the changes
 * Developer Reputation System
 
-Each of the above 4 metrics should be used assign a overall score to the release with no single metric accounting for more than 35% of the overall score.
+Each of the above 4 metrics should be used to assign a overall score to the release with no single metric accounting for more than 35% of the overall score.
 
 ### Size of diff
 How big the diff is. The larger the diff is in terms of the number of changed files and the number of additions/deletions the riskier the release should be scored. 
@@ -44,6 +44,14 @@ How much discussion there was around the PR. The amount of back-and-forth that o
 ### Developer Reputation System
 Reputation System/Developer Karma --> ranking the Quality of a Developers Code --> Developers with a history of pushing garbage through get more scrutiny.
 
+The score can be calculated based on the following GitHub activity stream events. (This is just a sample)
+
+* CommitCommentEvent 
+* IssueCommentEvent 
+* IssuesEvent 
+* PullRequestEvent 
+* PushEvent 
+* CreateEvent 
 
 
 
