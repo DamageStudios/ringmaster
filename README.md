@@ -1,8 +1,9 @@
-Need to hook into:
+### Overview
+Ringmaster is a tool for Release Management Risk Mitigation. It allows release engineers to take a deterministic approach to release management.
 
-* Jira
-* GitHub/BitBucket
-* Code Climate?
-* Travis-CI/Jenkins/Bamboo/Strider fail/pass stats
+[Ringmaster Overview](https://github.com/fusion94/DamageStudios/blob/master/docs/Overview.md)
+[How to Contribute Code](https://github.com/fusion94/DamageStudios/blob/master/docs/Contributing_Code.md)
+[ToDo List](https://github.com/fusion94/DamageStudios/blob/master/docs/ToDo.md)
 
-This is in essence is a dashboard to provide information to the release engineering team as to the viability of a release.
+### License
+This program is provided under an Apache open source license, read the LICENSE.txt file for details.
