@@ -13,9 +13,8 @@ gem 'devise'
 gem 'figaro'
 gem 'simple_form'
 gem 'high_voltage', '~> 2.1.0'
-gem 'rspec-rails'
-gem 'coveralls'
-group :development do
+
+group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
   gem 'guard-bundler'
@@ -25,4 +24,8 @@ group :development do
   gem 'rb-fchange', :require=>false
   gem 'rb-fsevent', :require=>false
   gem 'rb-inotify', :require=>false
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'coveralls'
+  gem 'faker'
 end
