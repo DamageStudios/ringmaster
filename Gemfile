@@ -14,6 +14,7 @@ gem 'figaro'
 gem 'simple_form'
 gem 'high_voltage', '~> 2.1.0'
 gem 'rspec-rails'
+gem 'coveralls'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
