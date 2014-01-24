@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/DamageStudios/ringmaster.png?branch=master)](https://travis-ci.org/DamageStudios/ringmaster)
+
 ### Overview
 Ringmaster is a tool for Release Management Risk Mitigation. It allows release engineers to take a deterministic approach to release management.
 * [Ringmaster Overview](https://github.com/DamageStudios/ringmaster/blob/master/docs/Overview.md)
