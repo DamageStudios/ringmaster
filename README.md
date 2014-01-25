@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/DamageStudios/ringmaster.png?branch=master)](https://travis-ci.org/DamageStudios/ringmaster)
 [![Coverage Status](https://coveralls.io/repos/DamageStudios/ringmaster/badge.png?branch=master)](https://coveralls.io/r/DamageStudios/ringmaster)
 [![Dependency Status](https://gemnasium.com/DamageStudios/ringmaster.png)](https://gemnasium.com/DamageStudios/ringmaster)
+[![Code Climate](https://codeclimate.com/github/DamageStudios/ringmaster.png)](https://codeclimate.com/github/DamageStudios/ringmaster)
 
 ### Overview
 Ringmaster is a tool for Release Management Risk Mitigation. It allows release engineers to take a deterministic approach to release management.
